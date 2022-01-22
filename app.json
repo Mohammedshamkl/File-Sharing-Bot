@@ -6,7 +6,7 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/CodeXBotz/File-Sharing-Bot",
+  "repository": "https://github.com/Mohammedshamkl/File-Sharing-Bot",
   "logo": "https://telegra.ph/file/14d3013fda21281c54b61.jpg",
   "env": {
     "TG_BOT_TOKEN": {
@@ -30,11 +30,11 @@
       "value": "-100"
     },
     "FORCE_SUB_CHANNEL":{
-      "description": "id of the channel or group, if you want enable force sub feature else put 0",
+      "description": "avoid it this feature seems glitch keep it 0",
       "value": "0"
     },
     "START_MESSAGE": {
-      "description": "Optional: start message of bot, use HTML parsemode format",
+      "description": "Optional: dont change it error will accured",
       "value": "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
     },
     "FORCE_SUB_MESSAGE": {
