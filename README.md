@@ -87,8 +87,8 @@ IMMORTAL KING
 * `CHANNEL_ID` Your Channel ID eg:- -100xxxxxxxx
 * `ADMINS` Optional: A space separated list of user_ids of Admins, they can only create links
 * `START_MESSAGE` Optional: start message of bot, use HTML and <a href='https://github.com/codexbotz/File-Sharing-Bot/blob/main/README.md#start_message'>fillings</a>
-* `FORCE_SUB_MESSAGE`Optional:Force sub message of bot, use HTML and Fillings
-* `FORCE_SUB_CHANNEL` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
+* `FORCE_SUB_MESSAGE`Optional:leave it
+* `FORCE_SUB_CHANNEL` Optional:leave 0
 
 ### Extra Variables
 
@@ -96,13 +96,13 @@ IMMORTAL KING
 * `DISABLE_CHANNEL_BUTTON` Put True to Disable Channel Share Button, Default if False
 
 ### Fillings
-#### START_MESSAGE | FORCE_SUB_MESSAGE
+#### START_MESSAGE 
 
 * `{first}` - User first name
 * `{last}` - User last name
 * `{id}` - User ID
 * `{mention}` - Mention the user
-* `{username}` - Username
+
 
 #### CUSTOM_CAPTION
 
