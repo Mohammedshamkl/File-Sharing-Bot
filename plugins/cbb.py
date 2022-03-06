@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "DONT CLICK👽":
         await query.message.edit_text(
-            text = f"<b>○ Owner : <a href='tg://user?id={OWNER_ID}'>ShubhamROfficial</a> <a Support : @telegram  </b>",
+            text = f"<b>○ Owner : <a href='tg://user?id={OWNER_ID}'>ShubhamROfficial</a> </b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
